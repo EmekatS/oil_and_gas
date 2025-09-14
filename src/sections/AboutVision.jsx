@@ -15,18 +15,24 @@ const AboutVision = () => {
                 <p>{aboutContent.para}</p>
                 <p>{aboutContent.para2}</p>
             </div>
-            <div className='flex justify-center gap-1 max-sm:hidden'>
+            {/* <div className='flex justify-center gap-1 max-sm:hidden'>
                 <img src={About1} className='max-w-60' />
                 <img src={About3} className='max-w-60' />
                 <img src={About2} className='max-w-60' />
                 <img src={About3} className='max-w-60' />
                 <img src={About1} className='max-w-60' />
-            </div>
-            <div className='flex justify-start gap-5 md-hidden overflow-x-scroll w-full p-4'>
+            </div> */}
+            <div className='flex justify-start gap-5 overflow-x-scroll w-full p-4'>
                 <img src={About1} className='max-w-60 shrink-0' />
                 <img src={About3} className='max-w-60 shrink-0' />
                 <img src={About2} className='max-w-60 shrink-0' />
                 <img src={About3} className='max-w-60 shrink-0' />
+                <img src={About1} className='max-w-60 shrink-0' />
+                <img src={About2} className='max-w-60 shrink-0' />
+                <img src={About1} className='max-w-60 shrink-0' />
+                <img src={About2} className='max-w-60 shrink-0' />
+                <img src={About1} className='max-w-60 shrink-0' />
+                <img src={About2} className='max-w-60 shrink-0' />
                 <img src={About1} className='max-w-60 shrink-0' />
             </div>
         </div>
